@@ -1,0 +1,14 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Web site Manuel'
+
+theme = "relearn"
+
+[[params.themeVariant]]
+identifier = 'neon'
+
+[[params.themeVariant]]
+identifier = 'learn'
+
+[[params.themeVariant]]
+identifier = 'blue'
