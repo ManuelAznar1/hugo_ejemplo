@@ -815,7 +815,7 @@ div.attachments .box-content {
 #R-body-inner ul.children-h5,
 #R-body-inner ul.children-h6 {
     /* if we display children with style=h2 but without a containerstyle
-    a ul will be used for structuring; we remove default indention for uls
+    a ul will be used for structuring; we remove _default indention for uls
     in this case */
     padding-inline-start: 0;
 }
@@ -887,7 +887,7 @@ div.highlight > div{
     border-style: solid;
     border-width: 1px;
 }
-/* remove default style for usual markdown tables */
+/* remove _default style for usual markdown tables */
 div.highlight > div table{
     background-color: transparent;
     border-width: 0;

@@ -1,10 +1,10 @@
 :root {
-    --MAIN-TEXT-color: rgba( 50, 50, 50, 1 ); /* Color of text by default */
+    --MAIN-TEXT-color: rgba( 50, 50, 50, 1 ); /* Color of text by _default */
     --MAIN-TITLES-TEXT-color: rgba( 94, 94, 94, 1 ); /* Color of titles h2-h3-h4-h5-h6 */
     --MAIN-TITLES-H1-color: rgba( 34, 34, 34, 1 ); /* text color of h1 titles */
     --MAIN-LINK-color: rgba( 0, 189, 243, 1 ); /* Color of links */
     --MAIN-LINK-HOVER-color: rgba( 0, 130, 167, 1 ); /* Color of hovered links */
-    --MAIN-BG-color: rgba( 255, 255, 255, 1 ); /* color of text by default */
+    --MAIN-BG-color: rgba( 255, 255, 255, 1 ); /* color of text by _default */
 
     --CODE-theme: learn; /* name of the chroma stylesheet file */
     --CODE-BLOCK-color: rgba( 226, 228, 229, 1 ); /* fallback color for code text */
@@ -21,7 +21,7 @@
     --MENU-HEADER-BORDER-color: rgba( 156, 111, 182, 1 ); /*Color of menu header border */
 
     --MENU-SEARCH-color: rgba( 255, 255, 255, 1 ); /* Color of search field text */
-    --MENU-SEARCH-BG-color: rgba( 118, 72, 144, 1 ); /* Search field background color (by default borders + icons) */
+    --MENU-SEARCH-BG-color: rgba( 118, 72, 144, 1 ); /* Search field background color (by _default borders + icons) */
     --MENU-SEARCH-BORDER-color: rgba( 145, 94, 174, 1 ); /* Override search field border color */
 
     --MENU-SECTIONS-ACTIVE-BG-color: rgba( 37, 31, 41, 1 ); /* Background color of the active section and its children */

@@ -1488,7 +1488,7 @@ components:
             message:
               type: string
           xml:
-            name: "##default"
+            name: "##_default"
         type:
           type: object
           properties:
@@ -1500,7 +1500,7 @@ components:
             message:
               type: string
           xml:
-            name: "##default"
+            name: "##_default"
         message:
           type: object
           properties:
@@ -1512,9 +1512,9 @@ components:
             message:
               type: string
           xml:
-            name: "##default"
+            name: "##_default"
       xml:
-        name: "##default"
+        name: "##_default"
   requestBodies:
     Pet:
       description: Pet object that needs to be added to the store

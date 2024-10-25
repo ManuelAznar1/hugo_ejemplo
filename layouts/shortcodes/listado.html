@@ -1,0 +1,14 @@
+{{ $title := .Get 0 | default "Objetivos" }}
+<div style ="background-color:green"; border="1px" red>
+    <h1>
+        {{ $title}}
+    </h1>
+    <ol>
+        {{ $lineas := split .Inner "\n"}}
+        {{ range $linea := $lineas}}
+        <li>
+            {{ $linea }}
+        </li>
+        {{ end }}
+    </ol>
+</div>

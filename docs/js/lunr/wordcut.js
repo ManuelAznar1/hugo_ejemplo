@@ -1292,8 +1292,8 @@ EventEmitter.EventEmitter = EventEmitter;
 EventEmitter.prototype._events = undefined;
 EventEmitter.prototype._maxListeners = undefined;
 
-// By default EventEmitters will print a warning if more than 10 listeners are
-// added to it. This is a useful default which helps finding memory leaks.
+// By _default EventEmitters will print a warning if more than 10 listeners are
+// added to it. This is a useful _default which helps finding memory leaks.
 EventEmitter.defaultMaxListeners = 10;
 
 // Obviously not all Emitters should be limited to 10. This function allows
@@ -3381,7 +3381,7 @@ function braceExpand (pattern, options) {
 // Following the lead of Bash 4.1, note that "**" only has special meaning
 // when it is the *only* thing in a path portion.  Otherwise, any series
 // of * is equivalent to a single *.  Globstar behavior is enabled by
-// default, and can be disabled by setting options.noglobstar.
+// _default, and can be disabled by setting options.noglobstar.
 Minimatch.prototype.parse = parse
 var SUBPARSE = {}
 function parse (pattern, isSub) {
@@ -5029,7 +5029,7 @@ process.umask = function() { return 0; };
     return output;
   };
 
-  // Flatten out an array, either recursively (by default), or just one level.
+  // Flatten out an array, either recursively (by _default), or just one level.
   _.flatten = function(array, shallow) {
     return flatten(array, shallow, false);
   };
@@ -5575,7 +5575,7 @@ process.umask = function() { return 0; };
     return _.pick(obj, iteratee, context);
   };
 
-  // Fill in a given object with default properties.
+  // Fill in a given object with _default properties.
   _.defaults = createAssigner(_.allKeys, true);
 
   // Creates an object that inherits from the given prototype object.
@@ -5801,7 +5801,7 @@ process.umask = function() { return 0; };
     return this;
   };
 
-  // Keep the identity function around for default iteratees.
+  // Keep the identity function around for _default iteratees.
   _.identity = function(value) {
     return value;
   };
@@ -5901,7 +5901,7 @@ process.umask = function() { return 0; };
     return prefix ? prefix + id : id;
   };
 
-  // By default, Underscore uses ERB-style template delimiters, change the
+  // By _default, Underscore uses ERB-style template delimiters, change the
   // following template settings to use alternative delimiters.
   _.templateSettings = {
     evaluate    : /<%([\s\S]+?)%>/g,
@@ -6143,7 +6143,7 @@ exports.format = function(f) {
 
 
 // Mark that a method should not be used.
-// Returns a modified function which warns once by default.
+// Returns a modified function which warns once by _default.
 // If --no-deprecation is set, then it is a no-op.
 exports.deprecate = function(fn, msg) {
   // Allow for deprecating things in the process of starting up.
@@ -6206,7 +6206,7 @@ exports.debuglog = function(set) {
  */
 /* legacy: obj, showHidden, depth, colors*/
 function inspect(obj, opts) {
-  // default options
+  // _default options
   var ctx = {
     seen: [],
     stylize: stylizeNoColor
@@ -6221,7 +6221,7 @@ function inspect(obj, opts) {
     // got an "options" object
     exports._extend(ctx, opts);
   }
-  // set default options
+  // set _default options
   if (isUndefined(ctx.showHidden)) ctx.showHidden = false;
   if (isUndefined(ctx.depth)) ctx.depth = 2;
   if (isUndefined(ctx.colors)) ctx.colors = false;
